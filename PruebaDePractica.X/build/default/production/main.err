@@ -1,6 +1,6 @@
-C:\embebidos\Prueba de practica2\PruebaDePractica.X\main.c:25:1:  Warning#203  Condition always TRUE
-C:\embebidos\Prueba de practica2\PruebaDePractica.X\main.c:52:1:  Warning#206  Variable of this data type is never greater than this constant
-C:\embebidos\Prueba de practica2\PruebaDePractica.X\main.c:52:1:  Warning#204  Condition always FALSE
-      Memory usage:   ROM=1%      RAM=0% - 0%
+C:\embebidos\4G_1_Pract2\PruebaDePractica.X\main.c:24:1:  Warning#203  Condition always TRUE
+C:\embebidos\4G_1_Pract2\PruebaDePractica.X\main.c:22:17:  Warning#202  Variable never used:   resultado
+C:\embebidos\4G_1_Pract2\PruebaDePractica.X\main.c:22:43:  Warning#202  Variable never used:   complemento1
+      Memory usage:   ROM=0%      RAM=0% - 0%
       0 Errors,  3 Warnings.
 Build Successful.

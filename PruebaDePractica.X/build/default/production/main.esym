@@ -1,7 +1,7 @@
 D G "__PCH__" 0 0 ""5.012""
 D G "__DEVICE__" 0 0 ""
-D G "__DATE__" 0 0 ""06-abr.-18""
-D G "__TIME__" 0 0 ""22:31:25""
+D G "__DATE__" 0 0 ""07-abr.-18""
+D G "__TIME__" 0 0 ""00:02:43""
 D G "__18F4520" 0 0 "1" "* File:   Calculadora 8 bits"
 C G "" 0 1 1 "*"
 C G "" 0 1 1 "*"
@@ -911,18 +911,10 @@ d G "INT_LOWVOLT" 1 828 "0x00A004"
 d G "INT_COMP" 1 829 "0x00A040"
 d G "INT_EEPROM" 1 830 "0x00A010"
 d G "INT_OSCF" 1 831 "0x00A080"
-f G "rutinaDeError" 0 13 "void()" `638 
-F G "main" 0 15 "void()" `639 
-V L "resultado" 0 23 "int8" `642 
-V L "opcion" 0 23 "int8" `643 
-V L "complemento1" 0 23 "int8" `644 
-C L "main" 0 28 1 "FUNCTION"
-C L "main" 0 28 1 "FUNCTION"
-C L "main" 0 28 2 "FUNCTION"
-C L "main" 0 28 1 "FUNCTION"
-C L "main" 0 28 1 "FUNCTION"
-F G "rutinaDeError" 0 62 "void()" `638 
-V L "i" 0 63 "int8" `651 
+F G "main" 0 14 "void()" `638 
+V L "resultado" 0 22 "int8" `641 
+V L "opcion" 0 22 "int8" `642 
+V L "complemento1" 0 22 "int8" `643 
 F B "reset_cpu" 0 0
 F B "abs" 1 0
 F B "sleep" 0 1
