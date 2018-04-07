@@ -1,4 +1,4 @@
-CCS PCH C Compiler, Version 5.012, 41559               07-abr.-18 00:02
+CCS PCH C Compiler, Version 5.012, 41559               07-abr.-18 00:03
 
                Filename:   C:\embebidos\4G_1_Pract2\PruebaDePractica.X\build\default\production\main.lst
 
@@ -74,11 +74,10 @@ CCS PCH C Compiler, Version 5.012, 41559               07-abr.-18 00:02
 00034:  CLRF   05
 ....................  
 ....................    while(1){ 
-....................       opcion = (long)input_b(); 
+....................       opcion = (long)input_b();         
 00036:  SETF   F93
 00038:  MOVFF  F81,06
 0003C:  BRA    0036
-....................           
 ....................     } 
 .................... } 
 0003E:  SLEEP 

@@ -22,7 +22,6 @@ void main (void){
    unsigned int resultado = 0x00, opcion, complemento1;
 
    while(1){
-      opcion = (long)input_b();
-         
+      opcion = (long)input_b();        
     }
 }

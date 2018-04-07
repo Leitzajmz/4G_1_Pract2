@@ -13,10 +13,10 @@ Stack size: 31
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
-   29    10 100  main.c
+   28    10 100  main.c
   834     0   0  ..\..\..\Program Files (x86)\PICC\devices\18F4620.h
 ----- -----
-  863    10 Total
+  862    10 Total
 
 Page ROM  %  RAM   Vol Diff  Functions:
 ---- --- --- ---   --- ----  ----------
