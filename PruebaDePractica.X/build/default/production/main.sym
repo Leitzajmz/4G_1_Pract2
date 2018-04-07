@@ -1,0 +1,80 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005     main.resultado
+006     main.opcion
+007     main.complemento1
+008     rutinaDeError.i
+008     main.@SCRATCH1
+009     @delay_ms1.P1
+009     main.@SCRATCH2
+00A     main.@SCRATCH3
+00B     main.@SCRATCH4
+00C-00D @MUL1616.P1
+00C-00D @DIV1616.P2
+00E-00F @MUL1616.P1
+00E-00F @DIV1616.P2
+010     @MUL1616.@SCRATCH1
+010     @DIV1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @MUL1616
+000024  @delay_ms1
+00004C  rutinaDeError
+000090  @DIV1616
+0000D4  main
+0000D4  @cinit1
+0000E4  @cinit2
+
+Project Directory:
+    C:\embebidos\Prueba de practica2\PruebaDePractica.X\
+
+Project Files:
+    main.c                                                  [06-abr.-18 22:31  CRC=D7096F23]
+    ..\..\..\Program Files (x86)\PICC\devices\18F4620.h     [10-sep.-13 17:34  CRC=044A57BA]
+
+Source signature=DF9E1E97
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F4620
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Predefined symbols:
+       #define __18F4520 1
+
+Output Files:
+    XREF file:   build\default\production\main.xsym
+    Errors:      build\default\production\main.err
+    Ext Symbols: build\default\production\main.esym
+    INHX32:      build\default\production\main.hex
+    Symbols:     build\default\production\main.sym
+    List:        build\default\production\main.lst
+    Debug/COFF:  build\default\production\main.cof
+    Project:     main.ccspjt
+    Call Tree:   build\default\production\main.tre
+    Statistics:  build\default\production\main.STA

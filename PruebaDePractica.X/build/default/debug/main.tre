@@ -1,0 +1,8 @@
+ÀÄPruebaDePractica
+   ÀÄmain  0/290  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@MUL1616  0/32  Ram=5
+      ÃÄrutinaDeError  0/68  Ram=0
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÀÄ@DIV1616  0/68  Ram=5
